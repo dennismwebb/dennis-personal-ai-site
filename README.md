@@ -1,4 +1,4 @@
-# dennis-personal-ai-site
+# dennis-ai-site
 
 Next.js frontend for Dennis's personal AI website — featuring an interactive avatar, real-time chat UI, and a polished portfolio experience.
 
@@ -28,7 +28,7 @@ This is the **frontend application** for the Dennis AI personal website — a sh
 
 ```
 ┌──────────────────────────────────────────────────────────┐
-│                dennis-personal-ai-site                     │
+│                dennis-ai-site                     │
 │                                                          │
 │  ┌────────────────────────────────────────────────────┐   │
 │  │                   App Router                       │   │
@@ -67,7 +67,7 @@ This is the **frontend application** for the Dennis AI personal website — a sh
 ## Repository Structure
 
 ```
-dennis-personal-ai-site/
+dennis-ai-site/
 ├── src/
 │   ├── app/
 │   │   ├── layout.tsx
@@ -152,8 +152,8 @@ dennis-personal-ai-site/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/dennismwebb/dennis-personal-ai-site
-cd dennis-personal-ai-site
+git clone https://github.com/dennismwebb/dennis-ai-site
+cd dennis-ai-site
 ```
 
 ### 2. Install dependencies
@@ -295,10 +295,10 @@ pnpm test:e2e -- --ui
 
 ```bash
 # Build production image
-docker build -t dennis-personal-ai-site:latest .
+docker build -t dennis-ai-site:latest .
 
 # Run
-docker run -p 3000:3000 --env-file .env.production dennis-personal-ai-site:latest
+docker run -p 3000:3000 --env-file .env.production dennis-ai-site:latest
 ```
 
 ### Static Export (Optional)
