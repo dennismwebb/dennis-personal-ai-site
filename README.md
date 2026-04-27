@@ -152,7 +152,7 @@ dennis-personal-ai-site/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/dennis/dennis-personal-ai-site.git
+git clone https://github.com/dennismwebb/dennis-personal-ai-site
 cd dennis-personal-ai-site
 ```
 
@@ -193,7 +193,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ### 5. Full-stack local development
 
-For the complete experience with the AI backend, use Docker Compose from [dennis-ai-infra](https://github.com/dennis/dennis-ai-infra):
+For the complete experience with the AI backend, use Docker Compose from [dennis-ai-infra](https://github.com/dennismwebb/dennis-ai-infra):
 
 ```bash
 cd ../dennis-ai-infra/docker
@@ -320,7 +320,7 @@ pnpm build
 
 ### CI/CD
 
-Build and deployment pipelines are managed in [dennis-ai-infra](https://github.com/dennis/dennis-ai-infra). The frontend pipeline:
+Build and deployment pipelines are managed in [dennis-ai-infra](https://github.com/dennismwebb/dennis-ai-infra). The frontend pipeline:
 
 1. Installs dependencies (`pnpm install --frozen-lockfile`)
 2. Runs linting and type checks
@@ -356,9 +356,9 @@ Build and deployment pipelines are managed in [dennis-ai-infra](https://github.c
 
 | Repository | Description |
 |---|---|
-| [dennis-ai-backend](https://github.com/dennis/dennis-ai-backend) | .NET 8 API — AI agent orchestration, services |
-| [dennis-ai-data](https://github.com/dennis/dennis-ai-data) | AI data assets — prompts, embeddings, knowledge base |
-| [dennis-ai-infra](https://github.com/dennis/dennis-ai-infra) | Infrastructure-as-code — Terraform, K8s, CI/CD |
+| [dennis-ai-backend](https://github.com/dennismwebb/dennis-ai-backend) | .NET 8 API — AI agent orchestration, services |
+| [dennis-ai-data](https://github.com/dennismwebb/dennis-ai-data) | AI data assets — prompts, embeddings, knowledge base |
+| [dennis-ai-infra](https://github.com/dennismwebb/dennis-ai-infra) | Infrastructure-as-code — Terraform, K8s, CI/CD |
 
 ---
 
