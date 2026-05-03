@@ -1,5 +1,7 @@
+const BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL;
+
 export async function sendMessage(message: string) {
-  const res = await fetch("http://localhost:5049/api/chat", {
+  const res = await fetch(`${BASE_URL}/api/chat`, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ message }),
